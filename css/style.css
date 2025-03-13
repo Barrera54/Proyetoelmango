@@ -6,7 +6,8 @@
 
 body{
 	font-family: 'Open sans';
-	background: #E8E8E8;
+	background: white;
+    font-size: 250px;
 }
 
 header{
@@ -16,12 +17,12 @@ header{
 	left: 0;
 
 	padding: 20px;
-	background: #34495E;
+	background: #99FF99;
 }
 
 header #button-menu{
 	font-size: 30px;
-	color: #fff;
+	color:  black;
 	cursor: pointer;
 }
 
@@ -36,9 +37,9 @@ header #button-menu{
 }
 
 .navegacion ul{
-	width: 320px;
+	width: 220px;
 	height: 100%;
-	background: #fff;
+	background:#99FF99;
 	list-style: none;
 
 	position: absolute;
@@ -50,7 +51,7 @@ header #button-menu{
 
 .navegacion .menu li.title-menu{
 	padding: 20px;
-	background: #5F6F81;
+	background: #99FF99;
 	color: #fff;
 	text-align: center;
 	font-size: 22px;
@@ -64,11 +65,11 @@ header #button-menu{
 	font-size: 22px;
 	font-weight: 200;
 	text-decoration: none;
-	color: #575D69;
+	color: black;
 }
 
 .navegacion .menu a:hover{
-	background: #798DA3;
+
 	color: #fff;
 }
 
@@ -117,4 +118,31 @@ header #button-menu{
 	.navegacion ul{
 		width: 100%;
 	}
+}
+.navegacion .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    background-color: #99FF99; /* Color de fondo opcional */
+    overflow-y: auto; /* Permite el desplazamiento vertical si es necesario */
+    height: 100vh; /* para que ocupe toda la altura de la pantalla */
+}
+
+.navegacion .menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Separador opcional entre elementos */
+}
+
+.navegacion .menu li a {
+    text-decoration: none;
+    color: #333;
+}
+.tit{
+    display: flex;
+    font-size: 250px;
+}
+.a{
+    padding-left: 1000px;
+    font-size: 20px;
 }
