@@ -137,3 +137,10 @@ header #button-menu{
     text-decoration: none;
     color: #333;
 }
+.tit{
+	display: flex;
+
+}
+.a{
+	padding-left: 1000px;
+}
