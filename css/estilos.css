@@ -16,7 +16,7 @@ header{
 	left: 0;
 
 	padding: 20px;
-	background: #34495E;
+	background: #99FF99;
 }
 
 header #button-menu{
@@ -38,7 +38,7 @@ header #button-menu{
 .navegacion ul{
 	width: 320px;
 	height: 100%;
-	background: #fff;
+	background:#99FF99;
 	list-style: none;
 
 	position: absolute;
@@ -50,7 +50,7 @@ header #button-menu{
 
 .navegacion .menu li.title-menu{
 	padding: 20px;
-	background: #5F6F81;
+	background: #99FF99;
 	color: #fff;
 	text-align: center;
 	font-size: 22px;
@@ -68,7 +68,7 @@ header #button-menu{
 }
 
 .navegacion .menu a:hover{
-	background: #798DA3;
+	background: #99FF99;
 	color: #fff;
 }
 
@@ -117,4 +117,23 @@ header #button-menu{
 	.navegacion ul{
 		width: 100%;
 	}
+}
+.navegacion .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    background-color: #99FF99; /* Color de fondo opcional */
+    overflow-y: auto; /* Permite el desplazamiento vertical si es necesario */
+    height: 100vh; /* para que ocupe toda la altura de la pantalla */
+}
+
+.navegacion .menu li {
+    padding: 10px;
+    border-bottom: 1px solid #99FF99; /* Separador opcional entre elementos */
+}
+
+.navegacion .menu li a {
+    text-decoration: none;
+    color: #333;
 }
